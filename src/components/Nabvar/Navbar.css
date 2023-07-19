@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 32px;
+    width: 1024px;
+    height: 80px;
+    position: fixed;
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(20px);
+    margin-top: 24px;
+    z-index: 600;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+nav .logo {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+nav .red {
+    color: var(--red);
+}

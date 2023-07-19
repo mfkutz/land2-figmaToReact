@@ -1,0 +1,31 @@
+:root {
+    --dark: #181E1E;
+    --red: #E63946;
+    --pink: #FF6864;
+    --yellow: #FFCA28;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 80px 0;
+    
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a,
+ul {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}

@@ -1,0 +1,69 @@
+header {
+    background: url('../../assets/header-desktop.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header .wrapper {
+    height: 100vh;
+    position: relative;
+}
+
+header .wrapper .cta {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 453px;
+    height: 326px;
+    border-radius: 20px 20px 0px 0px;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid #FFF;
+    border-left: 4px solid #FFF;
+    background: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(25px);
+    padding: 50px 40px;
+}
+
+
+header .wrapper .cta .paragraph {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 800;
+    position: relative;
+}
+
+header .wrapper .cta .paragraph::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background: #E63946;
+    left: 0;
+    bottom: -9px;
+}
+
+header .wrapper .cta .title {
+    color: #FFF;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.btn-header {
+    display: inline-flex;
+    padding: 10px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--red);
+
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+
+    font-weight: 700;
+    margin-top: 16px;
+
+}

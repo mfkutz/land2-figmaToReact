@@ -1,0 +1,70 @@
+.topics {
+    background: #000;
+    padding: 80px 0;
+}
+
+#topics h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+}
+
+#topics h2::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: var(--red);
+    left: 0;
+    bottom: 0;
+}
+
+#topics ul li {
+    color: #FFF;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    position: relative;
+}
+
+#topics ul li::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--red);
+    border-radius: 50%;
+    left: -23px;
+    top: 40%;
+}
+
+#topics ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 26px;
+}
+
+#topics .topics-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 35px 10px;
+}
+
+#topics img {
+    width: 558px;
+
+}
+#topics .wrapper {
+    position: relative;
+}
+
+#topics .wrapper .esq-topics {
+    width: 88px;
+    position: absolute;
+    right: -30px;
+    bottom: -33px;
+}
