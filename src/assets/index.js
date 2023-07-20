@@ -24,8 +24,11 @@ import thumbnail from './Thumbnail.png'
 import thumbnail1 from './Thumbnail1.png'
 import thumbnail2 from './Thumbnail2.png'
 import twitterLogo from './TwitterLogo.svg'
+import esqYellow from './esqYellow.svg'
+
 
 export {
+    esqYellow,
     twitterLogo,
     thumbnail,
     thumbnail1,

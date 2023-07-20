@@ -23,6 +23,7 @@ const Blog = () => {
               How To Mix Guitars Effectively
             </div>
           </div>
+          
           <div className='post'>
             <img src={thumbnail2} alt="image" className='img-post' />
             <p className='title-post'>Vox</p>

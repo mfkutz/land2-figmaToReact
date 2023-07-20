@@ -37,3 +37,15 @@ nav .logo {
 nav .red {
     color: var(--red);
 }
+
+@media (max-width:1040px) {
+    nav {
+        width: 694px;
+    }
+}
+
+@media (max-width:720px) {
+    nav {
+        display: none;
+    }
+}

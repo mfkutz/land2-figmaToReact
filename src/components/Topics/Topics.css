@@ -56,15 +56,45 @@
 
 #topics img {
     width: 558px;
+    object-fit: cover;
 
 }
+
 #topics .wrapper {
     position: relative;
 }
 
-#topics .wrapper .esq-topics {
-    width: 88px;
+#topics .esqYellow {
     position: absolute;
-    right: -30px;
-    bottom: -33px;
+    width: 88px;
+    height: 60px;
+    right: -26px;
+    bottom: -30px;
+    
+}
+
+@media (max-width:1040px) {
+    #topics img {
+        width: 385px;
+        background-position: center;
+        height: 287px;
+    }
+}
+
+@media (max-width:720px){
+    #topics .img-monitors {
+        display: none;
+    }
+  /*   #topics img{
+        display: none;
+    } */
+
+    #topics .esqYellow {
+       
+       
+        right: 30px;
+        bottom: -30px;
+        
+    }
+    
 }

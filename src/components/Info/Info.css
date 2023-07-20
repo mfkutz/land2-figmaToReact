@@ -44,3 +44,9 @@
     position: absolute;
     top: 0 ;
 }
+
+@media (max-width:720px){
+    #info .info-container{
+        flex-direction: column;
+    }
+}

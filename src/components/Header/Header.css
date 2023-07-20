@@ -67,3 +67,19 @@ header .wrapper .cta .title {
     margin-top: 16px;
 
 }
+
+@media (max-width:1040px) {
+    header .wrapper .cta {
+        width: 356px;
+    }
+}
+
+@media (max-width:720px) {
+    header .wrapper .cta {
+        width: unset;
+        left: 32px;
+        right: 32px;
+        max-height: 281px;
+        /* display: none; */
+    }
+}

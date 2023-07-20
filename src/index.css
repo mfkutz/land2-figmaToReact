@@ -29,3 +29,16 @@ ul {
     max-width: 1024px;
     margin: 0 auto;
 }
+
+@media (max-width:1040px){
+    .wrapper{
+        width: 694px;
+    }
+}
+
+@media (max-width:720px){
+    .wrapper{
+        padding: 0 32px;
+        width: auto;
+    }
+}

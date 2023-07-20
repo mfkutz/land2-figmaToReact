@@ -12,32 +12,41 @@ const Testimonials = () => {
 
           <div className='post-testimonials'>
             <img src={rectangle2} alt="" />
-            <div className="name-testimonials">
-              Peter Adams
+
+            <div className="testimonials_what">
+              <div className="name-testimonials">
+                Peter Adams
+              </div>
+              <p className="description-testimonials">
+                This is a great course. I got to learn a lot.
+              </p>
+
             </div>
-            <p className="description-testimonials">
-              This is a great course. I got to learn a lot.
-            </p>
           </div>
 
           <div className='post-testimonials'>
             <img src={rectangle3} alt="" />
-            <div className="name-testimonials">
-              Robert Fox
+            <div className="testimonials_what">
+              <div className="name-testimonials">
+                Robert Fox
+              </div>
+              <p className="description-testimonials">
+                I got to learn a lot about Music Production with this course. Thanks :)
+              </p>
             </div>
-            <p className="description-testimonials">
-              I got to learn a lot about Music Production with this course. Thanks :)
-            </p>
+
           </div>
 
           <div className='post-testimonials'>
             <img src={rectangle1} alt="" />
-            <div className="name-testimonials">
-              Emily Smith
+            <div className="testimonials_what">
+              <div className="name-testimonials">
+                Emily Smith
+              </div>
+              <p className="description-testimonials">
+                Awesome! Great job!!
+              </p>
             </div>
-            <p className="description-testimonials">
-              Awesome! Great job!!
-            </p>
           </div>
 
         </div>

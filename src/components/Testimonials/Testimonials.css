@@ -50,3 +50,24 @@
     width: 264px;
 
 }
+
+@media (max-width:1040px){
+    .testimonials-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+    #testimonials .post-testimonials{
+        display: flex;
+        flex-direction: row;
+    }
+    #testimonials .testimonials_what{
+        display: flex;
+        flex-direction: column;
+        margin-left: 28px;
+    }
+    .description-testimonials{
+        width: 100%;
+    }
+}

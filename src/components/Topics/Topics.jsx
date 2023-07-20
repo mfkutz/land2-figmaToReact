@@ -1,5 +1,5 @@
 import './Topics.css'
-import { rectangle13big, group1, rectangle14, rectangle15, rectangle16, rectangle17, rectangle18 } from '../../assets/index'
+import { rectangle13big, group1, esqYellow, rectangle14, rectangle15, rectangle16, rectangle17, rectangle18 } from '../../assets/index'
 import { useState } from 'react'
 
 const Topics = () => {
@@ -23,11 +23,13 @@ const Topics = () => {
           </ul>
 
           <div className='img'>
-            <img src={topicImg} alt="topics" />
+            <img src={topicImg} alt="topics" className='img-monitors' />
           </div>
         </div>
-
-        <img src={group1} alt="" className='esq-topics' />
+        
+        
+        <img src={esqYellow} alt="yellow" className='esqYellow'/>
+        
       </div>
     </section>
   )
