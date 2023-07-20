@@ -108,20 +108,18 @@
     }
 }
 
-@media (max-width:720px){
+@media (max-width:720px) {
     #blog .blog-container {
         grid-template-columns: 1fr;
         column-gap: 46px;
 
         /* display: none; */
     }
+
     #blog .post:nth-child(3) {
-       
-        
+
+
         grid-column: 1/2;
     }
 
-   /*  .btn-blog{
-        display: none;
-    }
-} */
+}
